@@ -19,7 +19,7 @@ body{
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
     color: #ffffff;
     font-size: 1.25rem;
-	font-weight: 500;
+	
 }
 .navbar-dark .navbar-brand {
     color: #000;
@@ -85,8 +85,8 @@ body{
 .Social-media a{
 	display: flex;
 	background: #e3edf7;
-	height: 15px;
-	width: 10px;
+	height: 45px;
+	width: 45px;
 	margin: 0 15px;
 	border-radius: 8px;
 	align-items: center;
@@ -251,10 +251,9 @@ body{
 	background: #5c0bb5;
 }
 .sq{
-	max-width: 29rem!important;
-	background: #5c0bb5;
+	max-width: 25rem!important;
+	background: #0b7fb5;
 }
-
 
   .html {
 	left: calc(72% - 1.5em);
@@ -273,11 +272,10 @@ body{
   .react {
 	left: calc(63% - 1.5em);
   }
-  .sql {
-	left: calc(63% - 1.5em);
-  }
 
-  
+  .sql {
+	left: calc(55% - 1.5em);
+  }
 
   .html,
   .css,
@@ -320,7 +318,35 @@ body{
 	overflow: hidden;
   }
   
-  .skills img{
+  .section-bg {
+	background: #64b5f6;
+  }
+  
+  .section-header h3 {
+	font-size: 63px;
+	color: #413e66;
+	text-align: center;
+	font-weight: 800;
+	position: relative;
+	font-family: "Montserrat", sans-serif;
+  }
+  
+  .section-header p {
+	text-align: center;
+	margin: auto;
+	font-size: 15px;
+	padding-bottom: 30px;
+	color: #535074;
+	width: 50%;
+  }
+  
+  
+ 
+section {
+    overflow: inherit;
+}
+  
+.skills img{
 	transition: 0.2s;
 	margin-left: 122px;
     margin-top: 21px;
@@ -329,7 +355,6 @@ body{
 	padding: 5px;
 	transition: 0.2s;
   }
-  
   /* Porfolio */
   .protfoliosection{
 	background-color: #e3f2fd;
