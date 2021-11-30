@@ -9,7 +9,7 @@ body{
 	background-color: rgb(238, 237, 237);
 }
 .herosection{
-	background-color: #120640;
+	background-color: #ffffff;
 	padding-top: 6rem;
 }
 
@@ -19,6 +19,7 @@ body{
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
     color: #ffffff;
     font-size: 1.25rem;
+	font-weight: 500;
 }
 .navbar-dark .navbar-brand {
     color: #000;
@@ -84,8 +85,8 @@ body{
 .Social-media a{
 	display: flex;
 	background: #e3edf7;
-	height: 45px;
-	width: 45px;
+	height: 15px;
+	width: 10px;
 	margin: 0 15px;
 	border-radius: 8px;
 	align-items: center;
@@ -155,7 +156,7 @@ body{
     margin-top: 53px;
     
 	border-radius: 50%;
-	background-color: #140452;
+	background-color: #ffffff;
 	box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
 				-6px -6px 10px -1px rgba(255,255,255,0.7);
 	
@@ -234,37 +235,60 @@ body{
 	bottom: -50%;
 	left: 50%;
   }
+  .ht{
+	max-width: 33rem!important;
+	background: #0cbd2a;
+}
+.cs{
+	max-width: 30rem!important;
+	background: #bd9f0c;
+}
+.js{
+	max-width: 28rem!important;
+}
+.rc{
+	max-width: 29rem!important;
+	background: #5c0bb5;
+}
+.sq{
+	max-width: 29rem!important;
+	background: #5c0bb5;
+}
+
 
   .html {
-	left: calc(88.5% - 1.5em);
+	left: calc(72% - 1.5em);
+	
+	
   }
 
   .css {
-	left: calc(78.5% - 1.5em);
+	left: calc(65% - 1.5em);
   }
 
   .javascript {
-	left: calc(58.5% - 1.5em);
+	left: calc(60% - 1.5em);
   }
 
   .react {
-	left: calc(48.5% - 1.5em);
+	left: calc(63% - 1.5em);
+  }
+  .sql {
+	left: calc(63% - 1.5em);
   }
 
-  .jquery {
-	left: calc(58.5% - 1.5em);
-  }
+  
 
   .html,
   .css,
   .javascript,
   .react,
-  .jquery {
-	background: #2C73D2;
+  .sql {
+	background: #062c5d;
   }
 
   .html:after {
-	border-top-color: #2C73D2;
+	border-top-color: #07192f;
   }
 
   .css:after {
@@ -279,7 +303,7 @@ body{
 	border-top-color: #2C73D2;
   }
 
-  .jquery:after {
+  .sql:after {
 	border-top-color: #2C73D2;
   }
   /* service section */
@@ -296,87 +320,16 @@ body{
 	overflow: hidden;
   }
   
-  .section-bg {
-	background: #64b5f6;
+  .skills img{
+	transition: 0.2s;
+	margin-left: 122px;
+    margin-top: 21px;
+  }
+  .skills img:hover{
+	padding: 5px;
+	transition: 0.2s;
   }
   
-  .section-header h3 {
-	font-size: 63px;
-	color: #413e66;
-	text-align: center;
-	font-weight: 800;
-	position: relative;
-	font-family: "Montserrat", sans-serif;
-  }
-  
-  .section-header p {
-	text-align: center;
-	margin: auto;
-	font-size: 15px;
-	padding-bottom: 30px;
-	color: #535074;
-	width: 50%;
-  }
-  
-  
- 
-section {
-    overflow: inherit;
-}
-  
-  #services .box {
-	padding: 30px;
-	position: relative;
-	overflow: hidden;
-	border-radius: 10px;
-	margin: 0 10px 40px 10px;
-	background: #fff;
-	box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
-	transition: all 0.3s ease-in-out;
-	text-align: center;
-  }
-  
-  #services .box:hover {
-	transform: scale(1.1);
-  }
-  
-  #services .icon {
-	margin: 0 auto 15px auto;
-	padding-top: 12px;
-	display: inline-block;
-	text-align: center;
-	border-radius: 50%;
-	width: 60px;
-	height: 60px;
-  }
-  
-  #services .icon .service-icon {
-	font-size: 36px;
-	line-height: 1;
-  }
-  
-  #services .title {
-	font-weight: 700;
-	margin-bottom: 15px;
-	font-size: 18px;
-  }
-  
-  #services .title a {
-	color: #111;
-  }
-  
-  #services .box:hover .title a {
-	color: #c59c35;
-  }
-  #services .box:hover .title a:hover {
-	text-decoration: none;
-  }
-  #services .description {
-	font-size: 14px;
-	line-height: 28px;
-	margin-bottom: 0;
-	text-align: left;
-  }
   /* Porfolio */
   .protfoliosection{
 	background-color: #e3f2fd;
